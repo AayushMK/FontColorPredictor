@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template: 100%/25% 50% 25%;
+  background: rgb(43, 47, 56);
+}
+/*dividing body into three parts*/
+#console {
+}
+
+/*inside console*/
+#display {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  height: 200px;
+  width: 90%;
+  border-radius: 6px;
+  background: rgb(226, 222, 219);
+  overflow: hidden;
+}
+#display-head {
+  height: 50px;
+  width: 100%;
+  color: black;
+  background-color: rgb(253, 202, 77);
+  text-align: center;
+  border-bottom: black;
+  border-style: dotted;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -15px 20px 15px rgb(33, 34, 39);
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  font-size: 1.5rem;
+}
+#display-body div {
+  height: 20px;
+  width: 100%;
+  border-bottom: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  font-size: 1rem;
+}
+
+/*console end*/
+
+#action {
+}
+#optional {
+  background: rgb(43, 47, 56);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#description {
+  background: rgb(103, 235, 133);
+  height: 200px;
+  width: 95%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -15px 20px 15px rgb(33, 34, 39);
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+#more-description {
+  background: rgb(18, 149, 226);
+  height: 400px;
+  width: 95%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -15px 20px 15px rgb(33, 34, 39);
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  font-size: 1rem;
+  text-align: center;
+}
+/*dividing body into three parts end*/
+
+/*inside the action part of the style*/
+
+/*inside the main part*/
+#main {
+  height: 50%;
+  width: 100%;
+  display: grid;
+  grid-template: 80% 20%/50% 50%;
+  background: rgb(43, 47, 56);
+}
+
+/*for circle with white font*/
+#white-palette {
+  margin: auto;
+  padding: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  box-shadow: -30px 30px 15px rgb(33, 34, 39);
+}
+#white-palette {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#select-white {
+  margin: auto;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: -30px 30px 15px rgb(33, 34, 39);
+  user-select: none;
+  visibility: hidden;
+}
+
+/*for circle with black font*/
+#black-palette {
+  margin: auto;
+  padding: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  box-shadow: -30px 30px 15px rgb(33, 34, 39);
+}
+#black-palette {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#select-black {
+  margin: auto;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: -30px 30px 15px rgb(33, 34, 39);
+  user-select: none;
+  visibility: hidden;
+}
+/*inside the main part end*/
+
+/*menu and it's items*/
+#menu {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(43, 47, 56);
+}
+#menu button {
+  all: unset;
+  height: 60px;
+  width: 150px;
+  background: rgb(179, 105, 247);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 6px;
+  /* box-shadow: -30px 30px 15px rgb(33, 34, 39); */
+  user-select: none;
+}
+#predict {
+}
+/*menu and it's items end*/
+
+/*inside the action part of the style end*/
+
+/*---------------------------------------------*/

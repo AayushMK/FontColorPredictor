@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <div id="console">
+        <div id="display">
+            <div id="display-head">
+                Display
+            </div>
+            <div id="display-body">
+
+            </div>
+        </div>
+    </div>
+
+    <!--Action or the middle part of the body-->
+    <div id = "action">
+        <!--main part-->
+        <div id="main">
+
+            <!--palette with white font-->
+            <div id= "white-palette">
+                White
+            </div>
+            <!--palette with white font-->
+
+            <!--palette with black font-->
+            <div id= "black-palette">
+                Black
+            </div>
+            <!--palette with blck font-->
+
+            <!--selection-->
+            <div id=select-white>
+                <h1>#Selected</h1>
+            </div>
+
+            <div id=select-black>
+                <h1>#Selected</h1>
+            </div>
+            <!--selection-->
+        </div>
+        <!--main part-->
+
+        <!--Menu part-->
+        <div id="menu">
+            <button id = "train">Train</button>
+            <button id = "predict">Predict</button>
+            <button id="next">Next</button>
+        </div>
+        <!--Menu part-->
+    </div>
+    <!--######################################-->
+
+
+    <div id="optional">
+                <!--Description-->
+                <div id= "description">
+                    Report
+                </div>
+                <div id="more-description">
+                    <p> This is a font color predictor</p>
+                    <p> This application predicts the font color for different background color</p>
+                    <p> Select the font color that suits the most for the palette color
+                    <p> Steps:</p>
+                    <p> Select the font colors by yourself 50 times by choosing and clicking next</p>
+                    <p>Click the train button to train the machine</p> 
+                    <p> After the training has been finished click prdict and next to see the result</p>
+
+                </div>
+                <!--Description end-->
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="colorPredictor.js"></script>
+</html>
