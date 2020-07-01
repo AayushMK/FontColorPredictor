@@ -146,14 +146,15 @@ var trainingdata;
 var train = document.getElementById("train").addEventListener("click", train);
 
 function train() {
+  var description = document.getElementById("description");
+  description.innerHTML = "Training...";
   trainingdata = tf.tensor(inp);
   trainingdata.print();
   console.log(inp);
 
   var trainingtarget = tf.tensor(target);
   trainingtarget.print();
-  var description = document.getElementById("description");
-  description.innerHTML = "Training...";
+
   model.fit(trainingdata, trainingtarget, { epochs: 5000 }).then((response) => {
     console.log(response.history.loss[0]);
     description.innerHTML = "Training finished";
