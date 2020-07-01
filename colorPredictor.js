@@ -70,7 +70,7 @@ whitePalette.addEventListener("click", () => {
     whitePalette.style.top = "0px";
     whitePalette.style.right = "0px";
     whitePalette.style.boxShadow = "-30px 30px 15px rgb(33, 34, 39)";
-  }, 30);
+  }, 100);
 
   // other functionality
   selected = "white";
