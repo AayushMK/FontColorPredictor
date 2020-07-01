@@ -133,6 +133,7 @@ body {
   text-shadow: -30px 30px 15px rgb(33, 34, 39);
   user-select: none;
   visibility: hidden;
+  color: white;
 }
 
 /*for circle with black font*/
@@ -163,6 +164,7 @@ body {
   text-shadow: -30px 30px 15px rgb(33, 34, 39);
   user-select: none;
   visibility: hidden;
+  color: white;
 }
 /*inside the main part end*/
 
