@@ -55,7 +55,7 @@ model.add(outputLayer);
 
 //find either white font or black font is selected
 var selected;
-var check = 50;
+var check = 20;
 var whitePalette = document.getElementById("white-palette");
 var blackPalette = document.getElementById("black-palette");
 var c = 1;
@@ -70,7 +70,7 @@ whitePalette.addEventListener("click", () => {
     whitePalette.style.top = "0px";
     whitePalette.style.right = "0px";
     whitePalette.style.boxShadow = "-30px 30px 15px rgb(33, 34, 39)";
-  }, 300);
+  }, 30);
 
   // other functionality
   selected = "white";
@@ -92,7 +92,7 @@ blackPalette.addEventListener("click", () => {
     blackPalette.style.top = "0px";
     blackPalette.style.right = "0px";
     blackPalette.style.boxShadow = "-30px 30px 15px rgb(33, 34, 39)";
-  }, 300);
+  }, 100);
 
   // other functionality
   selected = "black";
