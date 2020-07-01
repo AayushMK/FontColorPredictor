@@ -61,6 +61,18 @@ var blackPalette = document.getElementById("black-palette");
 var c = 1;
 var tag, text, element;
 whitePalette.addEventListener("click", () => {
+  //animate palette
+  whitePalette.style.position = "relative";
+  whitePalette.style.top = "10px";
+  whitePalette.style.right = "5px";
+  whitePalette.style.boxShadow = "2px 2px 15px rgb(33, 34, 39)";
+  setTimeout(function () {
+    whitePalette.style.top = "0px";
+    whitePalette.style.right = "0px";
+    whitePalette.style.boxShadow = "-30px 30px 15px rgb(33, 34, 39)";
+  }, 300);
+
+  // other functionality
   selected = "white";
   tag = document.createElement("div");
   text = document.createTextNode(c + ") white");
@@ -71,6 +83,18 @@ whitePalette.addEventListener("click", () => {
   c = c + 1;
 });
 blackPalette.addEventListener("click", () => {
+  //animate palette
+  blackPalette.style.position = "relative";
+  blackPalette.style.top = "10px";
+  blackPalette.style.right = "5px";
+  blackPalette.style.boxShadow = "2px 2px 15px rgb(33, 34, 39)";
+  setTimeout(function () {
+    blackPalette.style.top = "0px";
+    blackPalette.style.right = "0px";
+    blackPalette.style.boxShadow = "-30px 30px 15px rgb(33, 34, 39)";
+  }, 300);
+
+  // other functionality
   selected = "black";
   tag = document.createElement("div");
   text = document.createTextNode(c + ") black");
@@ -179,3 +203,4 @@ display.addEventListener("click", () => {
     show = false;
   }
 });
+//animate button
