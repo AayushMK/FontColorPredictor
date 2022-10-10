@@ -5,7 +5,6 @@ body {
   width: 100%;
   display: grid;
   grid-template: 100%/25% 50% 25%;
-  background: rgb(43, 47, 56);
 }
 /*dividing body into three parts*/
 #console {
